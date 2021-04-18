@@ -1,0 +1,189 @@
+.body {
+  background: rgb(241, 163, 233);
+  background: linear-gradient(90deg, rgba(241, 163, 233, 1) 49%, rgba(0, 212, 255, 1) 100%);
+  color: white;
+}
+
+.wrapper {
+  margin-top: 15%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vhod {
+  font-family: 'consolas';
+  font-size: 3em;
+}
+
+.text1 {
+  width: 22ch;
+  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'consolas';
+  font-size: 5em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.bttn {
+
+  width: 200px;
+  height: 70px;
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+    background-color: #1fd1f9;
+    outline: none;
+    font-size: 30px;
+   background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+   border: none;
+}
+.choice{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+table {
+  border: none;
+margin-left: 10%;
+margin-right: 10%;
+width: 80%;
+padding: 10px;
+}
+
+th {
+  height: 270px;
+  color: white;
+  font-size: 100px;
+}
+td {
+  color: white;
+  font-size: 25px;
+  font-family: monospace;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+.head{
+  color: white;
+  font-family: serif;
+  margin-left: 3%;
+  margin-top: 5%;
+font-size: 60px;
+}
+.italia{
+  width: 330px
+}
+.samolety{
+  position: fixed;
+}
+
+#samolet2{
+  bottom: 10px;
+  right: 8px;
+}
+#head2
+{color: white;
+font-size: 40px;
+margin-top: 20px
+}
+.tekst{
+  font-family: cursive;
+
+}
+.italy1{
+  font-size:25px;
+   clear: left;
+   color: purple
+}
+.italy{
+  float: right;
+width: 300px;
+height: 200px;
+margin: 10px;
+}
+.japan{  float: right;
+width: 300px;
+height: 200px;
+margin: 10px;}
+
+.japan1{
+  font-size:25px;
+  clear: left;
+  color: purple
+}
+.dubai{
+  float: right;
+width: 300px;
+height: 200px;
+margin: 10px;
+}
+
+.dubai1{
+  font-size:25px;
+   clear:left;
+   color: purple
+}
+.box1{
+  width:50px;
+   height:50px;
+   background-color:red;
+}
+.box2{
+  width:50px;
+   height:50px;
+   background-color:blue;
+   position:relative;
+   left:50px;
+bottom: 50px;
+}
+.box3{
+  width:50px;
+   height:50px;
+   background-color:green;
+   position:relative;
+   left:100px;
+bottom: 100px;
+}
+
+.one{
+  width:50px;
+     height:50px;
+     position:absolute;
+   background-color:red;
+top: 400px;
+left: 108px;
+
+}
+   .two{
+     width:50px;
+        height:50px;
+        position:absolute;
+      background-color:blue;
+      top:360px;
+      left:58px;
+    bottom: 0;
+
+   }
+   .three{
+     width:50px;
+        height:50px;
+        position:absolute;
+      background-color:green;
+   }
